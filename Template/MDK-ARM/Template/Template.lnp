@@ -28,6 +28,8 @@
 "template\cmsis_os.o"
 "template\heap_4.o"
 "template\port.o"
+"template\led.o"
+"template\tasks_1.o"
 --strict --scatter "Template\Template.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
